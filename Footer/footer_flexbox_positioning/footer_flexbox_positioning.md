@@ -1,0 +1,1 @@
+Sticky footer made with flexbox. No need to know height of footer to stick it to page bottom.

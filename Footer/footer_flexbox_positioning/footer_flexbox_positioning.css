@@ -1,0 +1,34 @@
+/* ==== HELPER COLORS ==== */
+
+.wrapper {
+  background-color: #ccc;
+}
+
+.content {
+  background-color: red;
+}
+
+.footer {
+  background-color: blue
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.content {
+  height:300px;
+  width: 100vw;
+}
+
+.footer {
+  align-self: flex-end;
+  width: 100vw;
+  height: 100px;
+}
