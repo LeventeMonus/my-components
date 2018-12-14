@@ -1,0 +1,1 @@
+flexbox responsive page sample based on w3 school sample page
