@@ -1,0 +1,35 @@
+/* ==== HELPER COLORS ==== */
+
+.wrapper {
+  background-color: #ccc;
+}
+
+.content {
+  background-color: red;
+}
+
+.footer {
+  background-color: blue
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  min-height: 100vh;
+  position: relative;
+  padding-bottom: 100px; /* Equals height of the footer and pushes away the content in the case they would touch. */
+}
+
+.content {
+  height:600px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  height: 100px;
+}
