@@ -1,0 +1,28 @@
+/* ==== HELPER COLORS ==== */
+
+body {
+  background-color: #ccc;
+}
+
+.content {
+  background-color: red;
+}
+
+.footer {
+  background-color: blue;
+}
+
+
+/* === POSITIONING ==== */
+
+* {
+  box-sizing: border-box;
+}
+
+.content {
+  min-height: calc(100vh - 50px);
+}
+
+.footer {
+  height: 50px;
+}
