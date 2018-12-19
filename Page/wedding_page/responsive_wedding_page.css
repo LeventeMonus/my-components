@@ -1,0 +1,255 @@
+* {
+  box-sizing: border-box;
+}
+
+/* ==== BASE STYLES ==== */
+
+body {
+  background: url("https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-background.png") repeat center;
+  color: #444349;
+  font-family: 'Muli', sans-serif;
+  line-height: 1.5;
+  font-size: 1.125rem;
+  text-align: center;
+}
+
+h1, h2, h3, ul, ol, p, img {
+    margin-bottom: 1.5rem;
+}
+
+h1, h2 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 3rem;
+}
+
+h3 {
+  font-family: 'Libre Baskerville', serif;  
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.locations, .program, .gifts, .faq, .contact {
+    width: 95%;
+    margin: 1.5rem auto;
+    padding: .5rem 1rem;
+    text-align: center;
+}
+
+.program, .faq {
+  width: 100%;
+  text-align: left;
+  background: hsla(100,0%,0%,.6);
+  color: #d2ba87;
+}
+
+.blurb img, .gifts img {
+  height: 7.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: #bd806e;
+}
+
+a:hover {
+  color: #eda087;
+  transition: color .2s ease-in-out;
+}
+
+/* ==== HEADER STYLES ==== */
+
+.cover {
+  background-image: url("https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg");
+  background-repeat: no-repeat;
+  background-position: 70% center;
+  background-size: cover;
+  display: table;
+  height: 100vh;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .cover {
+    background-position: center;
+  }
+}
+
+.hero-text-wrapper {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.hero-text {
+  width: 100%;
+  padding: .625rem;
+  background-color: hsla(100,0%,0%,.5);
+  color: hsla(0,0%,100%,.9);
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {       .hero-text {
+    width: 50%;
+    border-radius: 4px;
+    padding: 1.3rem;
+  }
+}
+
+.hero-text h1 {
+  font-size: 3.15rem;
+  color: #d2ba87;
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 768px) {       .hero-text h1 {
+    font-size: 7rem;
+  }
+}
+
+.tagline {
+  font-size: 1.25rem;
+  letter-spacing: .15rem;
+}
+
+@media screen and (min-width: 768px) {       .tagline {
+    text-transform: uppercase;
+  }
+}
+
+.tagline::after {
+  display: block;
+  content: "";
+  background-color: #ffffff;
+  height: 1px;
+  width: 13rem;
+  margin: .5rem auto;
+}
+
+.date {
+  font-size: 1.25rem;
+  letter-spacing: .15rem;
+  vertical-align: middle;
+}
+
+.date::before, .date::after {
+  display: inline-block;
+  content: "";
+  background-color: #ffffff;
+  height: 1px;
+  width: 1.5rem;
+  vertical-align: middle;
+  margin: 0 .5rem;
+}
+
+
+/* ==== MAIN STYLES ==== */
+
+/* === locations styles =1== */
+
+.blurb::after {
+  display: block;
+  content: "";
+  background-color: #444349;
+  height: 2px;
+  width: 25vw;
+  margin: 1.5rem auto;
+}
+
+@media screen and (min-width: 768px) {
+  .blurb::after {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {       .blurb {
+    display: inline-block;
+    width: 30%;
+  }
+}
+
+/* === program styles === */
+
+.program h2 {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.program ul {
+  letter-spacing: .025rem;
+}
+
+.program-wrapper p {
+  font-style: italic;
+}
+
+@media screen and (min-width: 768px) { .program-wrapper {
+    width: 30vw;
+    margin: 0 auto;
+  } 
+}
+
+/* === gifts styles === */
+
+.gifts p:last-child {
+  margin-bottom: 0;
+}
+
+/* === question and answers styles === */
+
+.faq h2 {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.faq h3 {
+  text-align: center;
+}
+
+.faq .question {
+  font-weight: bold;
+  margin-bottom: .5rem;
+}
+
+.question-group::after {
+  display: block;
+  content: "";
+  background-color: #d2ba87;
+  height: 2px;
+  width: 50%;
+  margin: 1.5rem auto;
+}
+
+@media screen and (min-width: 768px) {
+  .question-group:after {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) { .question-group {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    padding: 1.5rem;
+    margin: .5rem;
+  }
+}
+
+/* ==== FOOTER STYLES ==== */
+
+footer {
+  height: 10vh;
+  width: 100%;
+  background-color: #606060;
+  color: #ffffff;
+  display: table;
+  font-size: .875rem;
+}
+
+.footer-wrapper {
+  display: table-cell;
+  vertical-align: middle;
+  padding: .5rem 1rem;
+}
+
+footer p {
+  margin-bottom: 0;
+}
